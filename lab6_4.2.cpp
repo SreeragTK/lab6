@@ -5,11 +5,13 @@ using namespace std;
 void minimum(int&,int&,int&);
 int main(){
 int i,j,k;
+//applayinv conditions in function
 cout<<"enter the first no:";
 cin>>i;
 cout<<"enter the second no:";
 cin>>j;
 minimum(i,j,k);
+//showing the output of the function
 cout<<"minimum of your numbers is:"<<k;
 return 0;
 }
