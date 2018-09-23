@@ -1,5 +1,9 @@
+//include library
 #include<iostream>
 using namespace std;
+//define functions
+//applaying conditions
+//for first function
 int oddsum(int a,int b,int x,int i=0){
            
            if(a%2==0){
@@ -16,6 +20,7 @@ int oddsum(int a,int b,int x,int i=0){
            cin>>b;
 return i;}
            
+//for second function
 int evensum(int a,int b, int x,int y=0)
            {if(a%2==0){
                      for(x=a+2;x<b;x+=2)
@@ -28,6 +33,7 @@ int evensum(int a,int b, int x,int y=0)
            y=y+x;
            cout<<"sum of even numbers="<<y;}
 return y;}
+//for third function
 int sumsquireeven(int a,int b, int x,int j=0)
           { if(a%2==0){
                      
@@ -40,6 +46,7 @@ int sumsquireeven(int a,int b, int x,int j=0)
            j=j+(x*x);
            cout<<"sum of squire of even numbers="<<j;}
 return j;}
+//for fourth function
 int sumsquireodd(int a,int b, int x,int l=0)
            {if(a%2==0){
                      
@@ -52,6 +59,7 @@ int sumsquireodd(int a,int b, int x,int l=0)
            l=l+(x*x);
            cout<<"sum of squire of odd numbers is="<<l;}
 return l;}
+//usage of defined functions
 int main(){
           int a,b,x,y,z,k;
           cout<<"Here we have for functions namely"<<"\n";
